@@ -1,0 +1,26 @@
+import React from 'react';
+
+import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+
+const data = [
+  { number: 4, text: ' Years of Customer Service Experience'},
+  { number: 17, text: 'Programming Courses', },
+  { number: 500, text: 'LinkedIn Followers', },
+];
+
+const Acomplishments = () => (
+  <Section>
+    <SectionTitle>Personal Acomplishments</SectionTitle>
+    <Boxes>
+      {data.map((card, index) => (
+        <Box key={index}>
+          <BoxNum>{card.number}+</BoxNum>
+          <BoxText>{card.text}</BoxText>
+        </Box>
+      ))}
+    </Boxes>
+  </Section>
+);
+
+export default Acomplishments;
