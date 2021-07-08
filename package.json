@@ -1,13 +1,10 @@
 {
-  "homepage": "https://hustlecoding.github.io/Portfolio/",
   "name": "portfolio_nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "next start"
   },
   "dependencies": {
