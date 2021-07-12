@@ -12,7 +12,7 @@ const Hero = () => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        Front-End Developer. Currently front-end student at @Wantsome. Bright critical thinker with proven talent for learning quickly in results-oriented environment. 
+        Front-End Developer. Currently Front-End student at @Wantsome. Bright critical thinker with proven talent for learning quickly in results-oriented environment. 
       </SectionText>
       <Button onClick={() => window.location = 'https://www.linkedin.com/in/dobinciuc-florin-57a6121aa/'}>Learn More</Button>
     </LeftSection>
